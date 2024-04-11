@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora HTML + JS</title>
+  </head>
+  <body>
+    <h1>Calculadora HTML + JS</h1>
+
+    <div>
+      <input type="number" id="n1" />
+      <input type="number" id="n2" />
+    </div>
+
+    <br />
+    <div>
+      <button onclick="handleSum()">Somar</button>
+      <button onclick="handleSub()">Subtrair</button>
+      <button onclick="handleMul()">Multiplicar</button>
+      <button onclick="handleDiv()">Dividir</button>
+    </div>
+
+    <h2>Resultado: <span id="resultSpan"></span></h2>
+    <span id="errorSpan"></span>
+
+    <script src="./app.js" />
+  </body>
+</html>
