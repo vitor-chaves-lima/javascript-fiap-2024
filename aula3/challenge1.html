@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livraria</title>
+  </head>
+
+  <body>
+    <h1>Livraria</h1>
+
+    <div>
+      <label for="bookAmount">Quantos livros você deseja comprar?</label>
+      <input type="number" id="bookAmount" value="1" />
+    </div>
+
+    <br />
+    <div>
+      <button onclick="getResult()">Dividir</button>
+    </div>
+
+    <h2>Resultado: <span id="resultSpan"></span></h2>
+    <span id="errorSpan"></span>
+
+    <script src="./challenge1.js" />
+  </body>
+</html>
